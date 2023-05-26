@@ -1,0 +1,21 @@
+.imageContainer {
+    /* display: inline-block; */
+    /* width: fit-content; */
+    /* height: fit-content; */
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.loading {
+    background-color: #aaa;
+}
+.imageContainer li img {
+    width: 100%;
+    /* display: inline-block; */
+}
+img:hover {
+    cursor: pointer;
+}

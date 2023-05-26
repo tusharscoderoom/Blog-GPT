@@ -1,0 +1,89 @@
+.aiForm {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #3b3b3b;
+}
+.aiForm .searchBar {
+  display: grid;
+  grid-template-columns: 1.6fr 0.4fr;
+  gap: 12px;
+}
+.aiForm .searchBar button, .ai-submitBtn button {
+  justify-self: flex-end;
+  padding: 2px 2px;
+  height: 70%;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 2px solid #ccc;
+}
+.aiForm .searchBar button:hover {
+  border-color: rgb(57, 194, 232);
+  color: rgb(57, 194, 232);
+  background-color: rgb(37, 57, 62);
+  /* border-color: #000; */
+  box-shadow: 0 0 12px rgba(131, 131, 131, 0.615);
+}
+.aiForm .searchBar input {
+  outline: none;
+  border-radius: 20px;
+  padding: 6px 20px;
+  font-size: 0.9em;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.aiForm input:hover,
+.aiForm input:focus {
+  border-color: rgb(57, 194, 232);
+  box-shadow: 0 0 12px rgba(135, 207, 235, 0.615);
+}
+.generated {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.generated .content {
+  padding: 5px;
+  background-color: #fff;
+  /* height: 100px; */
+}
+.generated .content .summary p {
+  margin: 0;
+}
+.generated .image {
+  padding: 10px;
+  background-color: #fff;
+  /* height: 100px; */
+}
+.generated .image p {
+  text-align: left;
+  margin: 0;
+}
+.aiImage {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  margin: 12px 0;
+}
+.aiImage ul {
+  padding: 0;
+  columns: 2 auto;
+  gap: 5px;
+}
+.ai-submitBtn button {
+  margin-top: 12px;
+  background-color: #aaa;
+  border-color: #333;
+  border-radius: 12px;
+  color: #000;
+  font-size: 1em;
+  padding: 8px 0;
+}
+.ai-submitBtn:hover button {
+  border-color: #1e8bb2;
+  color: rgb(57, 194, 232);
+  background-color: rgb(37, 57, 62);
+  box-shadow: 0 0 12px rgba(131, 131, 131, 0.615);
+}
